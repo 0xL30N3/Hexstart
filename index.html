@@ -18,7 +18,11 @@
 <body>
     <div id="blob"></div>
     <div id="blur"></div>
-
+    <div class="google">
+    	<form action="https://www.google.com/search" method="get" id="ggl">
+     		<input type="text" name="q" placeholder="Search" class="search-input">
+    	</form>
+    </div>
     <div class="settings">
         <i class="fas fa-cog" id="settings-button"></i>
     </div>
@@ -42,19 +46,19 @@
                 <div class="setting-name">
                     <p>Background Color</p>
                 </div>
-                <input type="color" id="color-background" value="#101112">
+                <input type="color" id="color-background" value="#000000">
             </div>
             <div class="setting">
                 <div class="setting-name">
                    <p>Primary Color</p>
                 </div>
-                <input type="color" id="color-primary" value="#00ffb8">
+                <input type="color" id="color-primary" value="#00ff88">
             </div>
             <div class="setting">
                 <div class="setting-name">
                    <p>Secondary Color</p>
                 </div>
-                <input type="color" id="color-secondary" value="#13ce9a">
+                <input type="color" id="color-secondary" value="#00ffb8">
             </div>
             <div class="setting">
                 <div class="setting-name">
@@ -67,11 +71,11 @@
             </div>
         </div>
     </div>
-
+    
     <div class="grid">
         <div class="center">
             <div class="hexagon">
-                <a href="https://github.com" class="hex-icon" target="none">
+                <a href="https://github.com" class="hex-icon" target="_blank">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>
@@ -79,15 +83,31 @@
         <div></div>
         <div class="center">
             <div class="hexagon">
-                <a href="https://reddit.com" class="hex-icon" target="none">
+                <a href="https://reddit.com" class="hex-icon" target="_blank">
                     <i class="fa-brands fa-reddit"></i>
+                </a>
+            </div>
+        </div>
+        <div></div>
+	<div class="center">
+            <div class="hexagon">
+                <a href="https://facebook.com/" class="hex-icon" target="_blank">
+		    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div></div>
+	<div class="center">
+            <div class="hexagon">
+                <a href="https://ctftime.org/" class="hex-icon" target="_blank">
+		    <i class="fa-solid fa-font-awesome"></i>
                 </a>
             </div>
         </div>
         <div></div>
         <div class="center">
             <div class="hexagon">
-                <a href="https://www.youtube.com" class="hex-icon" target="none">
+                <a href="https://www.youtube.com" class="hex-icon" target="_blank">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </div>
@@ -95,7 +115,7 @@
         <div></div>
         <div class="center">
             <div class="hexagon">
-                <a href="https://mail.proton.me" class="hex-icon" target="none">
+                <a href="https://mail.proton.me" class="hex-icon" target="_blank">
                     <i class="fa-regular fa-envelope"></i>
                 </a>
             </div>
@@ -103,7 +123,7 @@
         <div></div>
         <div class="center">
             <div class="hexagon">
-                <a href="https://en.wikipedia.com/" class="hex-icon" target="none">
+                <a href="https://en.wikipedia.com/" class="hex-icon" target="_blank">
                     <i class="fa-brands fa-wikipedia-w"></i>
                 </a>
             </div>

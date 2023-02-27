@@ -37,3 +37,4 @@ rotation_switch.addEventListener("click", () => {
 
     localStorage.setItem("rotation", rotation_switch.checked);
 });
+
